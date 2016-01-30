@@ -1,0 +1,130 @@
+/* GENERAL */
+body{
+	font-family: 'Signika Negative', sans-serif;
+}
+
+@media (min-width: 992px){
+	.row{
+		width:80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+p{
+	font-size: 1.3em;
+}
+
+hr{
+	width:80%;
+	margin-top:0.2em;
+	margin-bottom: 0.2em;
+}
+.wrapper{
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/bg.jpg');
+	background-size: cover; /* Do we need legacy support? */
+	min-height:100vh;
+	background-position: 65%; /* For better display on smaller screens */
+}
+
+#all{
+	display: none;
+}
+
+/* TOP PART */
+@media (min-width: 769px) {
+	.title h1{
+	font-size: 8em;
+}
+}
+
+@media (max-width: 768px){
+	.title h1{
+		font-size: 5em;
+	}
+}
+
+.title h1, p{
+	text-shadow: 0.03em 0.03em rgba(0,0,0,0.5); /* IE < 9 support? */
+}
+
+.title{
+	color: #ecf0f1;
+}
+.top{
+	margin-top: 6em;
+}
+@media (min-width: 992px){
+	.login{
+	margin-top: 6.5em;
+	}
+	.login-social{
+		width:90%;
+	}
+}
+
+@media(max-width: 991px){
+	.login{
+		margin-top: 3em;
+	}
+	.login-social{
+		width:100%;
+	
+	}
+}
+.login-social{
+	color: white;
+	text-align: left;
+	margin-bottom: 1em;
+	transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+	box-shadow:  0.03em 0.03em rgba(0,0,0,0.5);
+}
+.login-social:hover{
+	color: #bdc3c7;
+}
+
+.login-social:focus{
+	color: #bdc3c7;
+}
+
+.login-social i{
+	margin-right: 0.5em;
+	padding-right: 0.5em;
+	border-right: 1px solid #171717;
+}
+.github{
+	background-color: #333333;
+}
+
+.facebook{
+	background-color: #3b5998;
+}
+
+.facebook i{
+	padding-right: 0.7em;
+}
+
+.google{
+	background-color: #ea4335;
+}
+
+/* BOTTOM PART */
+
+@media (min-width: 991px){
+	.box{
+		margin-left:1em;
+		margin-right:1em;
+	}
+}
+
+.box{
+	color: rgba(236, 240, 241, 0.7);
+	background-color: rgba(51,51,51,0.3);
+	padding:1em;
+	border-radius: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.box h2{
+	margin-top: -0.05em;
+}
