@@ -59,6 +59,7 @@ hr{
 	}
 	.login-social{
 		width:90%;
+		
 	}
 }
 
@@ -68,6 +69,7 @@ hr{
 	}
 	.login-social{
 		width:100%;
+		font-size:1.3em;
 	
 	}
 }
